@@ -13,15 +13,20 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to <a href="#">what2art</a>!
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+          Get started by selecting adjectives and clicking the button!
         </p>
 
-        <div className={styles.grid}>
+        <div>
+          <label for='adjectives'>Adjectives: </label>
+          <input id='adjectives' type='text' className='adjectives' />
+          <button id='search' className='search'>Search!</button>
+        </div>
+
+        {/* <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
             <h2>Documentation &rarr;</h2>
             <p>Find in-depth information about Next.js features and API.</p>
@@ -49,7 +54,7 @@ export default function Home() {
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
           </a>
-        </div>
+        </div> */}
       </main>
 
       <footer className={styles.footer}>

@@ -108,6 +108,14 @@
   margin-left: 0.5rem;
 }
 
+.adjectives {
+  width: 1rem;
+}
+
+.search {
+  padding-left: .5rem;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
