@@ -31,7 +31,7 @@ export default function Home() {
         <div>
           <label for='adjectives'>Adjectives: </label>
           <input id='adjectives' type='text' className='adjectives' />
-          <button id='search' className='search'>Search!</button>
+          <button id='search' className='search' onClick={() => callWordApi()}>Search!</button>
         </div>
 
         {/* <div className={styles.grid}>
